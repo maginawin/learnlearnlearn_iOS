@@ -13,8 +13,12 @@
 		0807E1E01A313ED2003695F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E1DF1A313ED2003695F6 /* ViewController.m */; };
 		0807E1E31A313ED2003695F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0807E1E11A313ED2003695F6 /* Main.storyboard */; };
 		0807E1E51A313ED2003695F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0807E1E41A313ED2003695F6 /* Images.xcassets */; };
-		0807E1E81A313ED2003695F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0807E1E61A313ED2003695F6 /* LaunchScreen.xib */; };
 		0807E1F41A313ED2003695F6 /* LearnLearnLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E1F31A313ED2003695F6 /* LearnLearnLearnTests.m */; };
+		0807E1FF1A313F77003695F6 /* LearnTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E1FE1A313F77003695F6 /* LearnTableViewController.m */; };
+		0807E2021A3140A8003695F6 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E2011A3140A8003695F6 /* AnimationViewController.m */; };
+		0807E2061A315F13003695F6 /* Animation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E2051A315F13003695F6 /* Animation1ViewController.m */; };
+		0807E2091A318A1A003695F6 /* Animation2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E2081A318A1A003695F6 /* Animation2ViewController.m */; };
+		0807E20D1A318B71003695F6 /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E20C1A318B71003695F6 /* Geometry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +42,19 @@
 		0807E1DF1A313ED2003695F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0807E1E21A313ED2003695F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0807E1E41A313ED2003695F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0807E1E71A313ED2003695F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0807E1ED1A313ED2003695F6 /* LearnLearnLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnLearnLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0807E1F21A313ED2003695F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0807E1F31A313ED2003695F6 /* LearnLearnLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnLearnLearnTests.m; sourceTree = "<group>"; };
+		0807E1FD1A313F77003695F6 /* LearnTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnTableViewController.h; sourceTree = "<group>"; };
+		0807E1FE1A313F77003695F6 /* LearnTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnTableViewController.m; sourceTree = "<group>"; };
+		0807E2001A3140A8003695F6 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		0807E2011A3140A8003695F6 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		0807E2041A315F13003695F6 /* Animation1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation1ViewController.h; sourceTree = "<group>"; };
+		0807E2051A315F13003695F6 /* Animation1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation1ViewController.m; sourceTree = "<group>"; };
+		0807E2071A318A1A003695F6 /* Animation2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation2ViewController.h; sourceTree = "<group>"; };
+		0807E2081A318A1A003695F6 /* Animation2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation2ViewController.m; sourceTree = "<group>"; };
+		0807E20B1A318B71003695F6 /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		0807E20C1A318B71003695F6 /* Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geometry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,13 +96,15 @@
 		0807E1D31A313ED2003695F6 /* LearnLearnLearn */ = {
 			isa = PBXGroup;
 			children = (
+				0807E2031A315EFA003695F6 /* animation */,
 				0807E1D81A313ED2003695F6 /* AppDelegate.h */,
 				0807E1D91A313ED2003695F6 /* AppDelegate.m */,
 				0807E1DE1A313ED2003695F6 /* ViewController.h */,
 				0807E1DF1A313ED2003695F6 /* ViewController.m */,
+				0807E1FD1A313F77003695F6 /* LearnTableViewController.h */,
+				0807E1FE1A313F77003695F6 /* LearnTableViewController.m */,
 				0807E1E11A313ED2003695F6 /* Main.storyboard */,
 				0807E1E41A313ED2003695F6 /* Images.xcassets */,
-				0807E1E61A313ED2003695F6 /* LaunchScreen.xib */,
 				0807E1DB1A313ED2003695F6 /* LearnLearnLearn.xcdatamodeld */,
 				0807E1D41A313ED2003695F6 /* Supporting Files */,
 			);
@@ -120,6 +135,21 @@
 				0807E1F21A313ED2003695F6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0807E2031A315EFA003695F6 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				0807E2001A3140A8003695F6 /* AnimationViewController.h */,
+				0807E2011A3140A8003695F6 /* AnimationViewController.m */,
+				0807E2041A315F13003695F6 /* Animation1ViewController.h */,
+				0807E2051A315F13003695F6 /* Animation1ViewController.m */,
+				0807E2071A318A1A003695F6 /* Animation2ViewController.h */,
+				0807E2081A318A1A003695F6 /* Animation2ViewController.m */,
+				0807E20B1A318B71003695F6 /* Geometry.h */,
+				0807E20C1A318B71003695F6 /* Geometry.m */,
+			);
+			name = animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0807E1E31A313ED2003695F6 /* Main.storyboard in Resources */,
-				0807E1E81A313ED2003695F6 /* LaunchScreen.xib in Resources */,
 				0807E1E51A313ED2003695F6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,9 +251,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0807E20D1A318B71003695F6 /* Geometry.m in Sources */,
 				0807E1DA1A313ED2003695F6 /* AppDelegate.m in Sources */,
+				0807E1FF1A313F77003695F6 /* LearnTableViewController.m in Sources */,
 				0807E1DD1A313ED2003695F6 /* LearnLearnLearn.xcdatamodeld in Sources */,
+				0807E2021A3140A8003695F6 /* AnimationViewController.m in Sources */,
 				0807E1E01A313ED2003695F6 /* ViewController.m in Sources */,
+				0807E2061A315F13003695F6 /* Animation1ViewController.m in Sources */,
+				0807E2091A318A1A003695F6 /* Animation2ViewController.m in Sources */,
 				0807E1D71A313ED2003695F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +288,6 @@
 				0807E1E21A313ED2003695F6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0807E1E61A313ED2003695F6 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0807E1E71A313ED2003695F6 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,7 +373,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = LearnLearnLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +385,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = LearnLearnLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

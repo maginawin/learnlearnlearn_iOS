@@ -1,25 +1,257 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Afj-WT-B3C">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Navigation Controller-->
+        <scene sceneID="Mhb-bp-XXT">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Afj-WT-B3C" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FtJ-0X-sLM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="s3M-Yd-TYi" kind="relationship" relationship="rootViewController" id="ij7-HW-Ydl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q5z-Ra-77u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="575" y="337"/>
+        </scene>
+        <!--LearnLearnLearn-->
+        <scene sceneID="Rtt-Rg-W0c">
+            <objects>
+                <tableViewController id="s3M-Yd-TYi" customClass="LearnTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ZDW-eD-FoD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="nBt-CY-S7m">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="eSE-PQ-aPJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eSE-PQ-aPJ" id="ez6-gr-Bad">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="图形图像与动画" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96f-E6-Xep">
+                                                    <rect key="frame" x="8" y="12" width="271" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="DE1-I8-zGr" kind="show" id="NeT-3h-k2q"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="s3M-Yd-TYi" id="cao-Sg-sJa"/>
+                            <outlet property="delegate" destination="s3M-Yd-TYi" id="6OK-f8-Ljv"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="LearnLearnLearn" id="qgO-bu-8z7"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nY4-qR-Gio" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="999.375" y="290.49295774647885"/>
+        </scene>
+        <!--图形图像与动画-->
+        <scene sceneID="NVp-PV-ZJg">
+            <objects>
+                <viewController id="DE1-I8-zGr" customClass="AnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3uo-zI-130"/>
+                        <viewControllerLayoutGuide type="bottom" id="L45-UZ-J9X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gVs-q0-juF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R0I-oY-GJL">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M2s-eg-hKV">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UGS-cx-taM">
+                                                <rect key="frame" x="8" y="20" width="304" height="30"/>
+                                                <state key="normal" title="使用UIImage和CGImage处理位图">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="N1x-h7-Dfo" kind="show" id="dbh-Ge-QeJ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aj1-qe-gXr">
+                                                <rect key="frame" x="8" y="70" width="304" height="30"/>
+                                                <state key="normal" title="绘制几何图形">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="fCW-tD-QTM" kind="show" id="Scc-wR-k6s"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="UGS-cx-taM" firstAttribute="leading" secondItem="M2s-eg-hKV" secondAttribute="leadingMargin" id="5of-cd-CX8"/>
+                                            <constraint firstItem="UGS-cx-taM" firstAttribute="trailing" secondItem="M2s-eg-hKV" secondAttribute="trailingMargin" id="Ajz-4p-YJW"/>
+                                            <constraint firstAttribute="height" constant="600" id="bUg-2X-RAo"/>
+                                            <constraint firstItem="UGS-cx-taM" firstAttribute="top" secondItem="M2s-eg-hKV" secondAttribute="top" constant="20" id="nt7-Nc-bpg"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="M2s-eg-hKV" firstAttribute="leading" secondItem="R0I-oY-GJL" secondAttribute="leading" id="IdK-RG-W2a"/>
+                                    <constraint firstAttribute="bottom" secondItem="M2s-eg-hKV" secondAttribute="bottom" constant="-120" id="U2U-ad-UVW"/>
+                                    <constraint firstItem="M2s-eg-hKV" firstAttribute="centerX" secondItem="R0I-oY-GJL" secondAttribute="centerX" id="hNe-iG-ofr"/>
+                                    <constraint firstAttribute="trailing" secondItem="M2s-eg-hKV" secondAttribute="trailing" id="vTw-aR-maC"/>
+                                    <constraint firstItem="M2s-eg-hKV" firstAttribute="top" secondItem="R0I-oY-GJL" secondAttribute="top" id="zEX-yd-VRS"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="R0I-oY-GJL" firstAttribute="leading" secondItem="gVs-q0-juF" secondAttribute="leading" id="6OG-pQ-IiO"/>
+                            <constraint firstItem="R0I-oY-GJL" firstAttribute="top" secondItem="gVs-q0-juF" secondAttribute="top" id="7gV-E7-1hi"/>
+                            <constraint firstItem="R0I-oY-GJL" firstAttribute="bottom" secondItem="L45-UZ-J9X" secondAttribute="top" id="HWZ-vg-1jx"/>
+                            <constraint firstAttribute="trailing" secondItem="R0I-oY-GJL" secondAttribute="trailing" id="tmt-WE-ec9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="图形图像与动画" id="vDf-rs-iff"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="contentView" destination="M2s-eg-hKV" id="j9D-XE-dep"/>
+                        <outlet property="scroller" destination="R0I-oY-GJL" id="NZI-Ew-7tH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dxo-Bu-HAP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1452" y="268"/>
+        </scene>
+        <!--使用UIImage和CGImage处理位图-->
+        <scene sceneID="XJ2-DK-875">
+            <objects>
+                <viewController id="N1x-h7-Dfo" customClass="Animation1ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nF4-QZ-ost"/>
+                        <viewControllerLayoutGuide type="bottom" id="P2W-qC-K4S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zTz-tL-Ta6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Obt-eS-LYE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fNY-3A-Tv1">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="蝴蝶飞舞" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loB-wl-IbK">
+                                                <rect key="frame" x="97" y="300" width="126" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="480" id="gHX-q4-sbx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="fNY-3A-Tv1" firstAttribute="leading" secondItem="Obt-eS-LYE" secondAttribute="leading" id="3Oc-HF-Vpe"/>
+                                    <constraint firstItem="fNY-3A-Tv1" firstAttribute="top" secondItem="Obt-eS-LYE" secondAttribute="top" id="KV0-pi-gSQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="fNY-3A-Tv1" secondAttribute="bottom" id="jaI-r1-VeN"/>
+                                    <constraint firstAttribute="centerX" secondItem="fNY-3A-Tv1" secondAttribute="centerX" id="kH5-k5-u3e"/>
+                                    <constraint firstAttribute="trailing" secondItem="fNY-3A-Tv1" secondAttribute="trailing" id="zVd-jr-5JE"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Obt-eS-LYE" firstAttribute="top" secondItem="zTz-tL-Ta6" secondAttribute="top" id="9Oh-Nu-XlC"/>
+                            <constraint firstItem="Obt-eS-LYE" firstAttribute="leading" secondItem="zTz-tL-Ta6" secondAttribute="leading" id="NXO-sw-ies"/>
+                            <constraint firstAttribute="trailing" secondItem="Obt-eS-LYE" secondAttribute="trailing" id="R63-5C-694"/>
+                            <constraint firstItem="P2W-qC-K4S" firstAttribute="top" secondItem="Obt-eS-LYE" secondAttribute="bottom" id="U9d-vu-aeM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="使用UIImage和CGImage处理位图" id="j9g-uj-kDI"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="contentView" destination="fNY-3A-Tv1" id="u9b-dj-50n"/>
+                        <outlet property="scrollView" destination="Obt-eS-LYE" id="2g7-HS-1bC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z7H-Fk-dhl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1874" y="-388"/>
+        </scene>
+        <!--绘制几何图形-->
+        <scene sceneID="o3b-ly-o3A">
+            <objects>
+                <viewController id="fCW-tD-QTM" customClass="Animation2ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2lA-yE-SCd"/>
+                        <viewControllerLayoutGuide type="bottom" id="c5a-yL-h1E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bSD-CI-16b">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rPL-U8-eTt">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C9r-je-TSn" customClass="Geometry">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="480" id="eJJ-y7-nvx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="C9r-je-TSn" secondAttribute="centerX" id="6US-zF-ulY"/>
+                                    <constraint firstItem="C9r-je-TSn" firstAttribute="top" secondItem="rPL-U8-eTt" secondAttribute="top" id="HWg-tw-Tbm"/>
+                                    <constraint firstItem="C9r-je-TSn" firstAttribute="leading" secondItem="rPL-U8-eTt" secondAttribute="leading" id="M4v-1J-6mE"/>
+                                    <constraint firstAttribute="bottom" secondItem="C9r-je-TSn" secondAttribute="bottom" id="NHo-Cz-ePU"/>
+                                    <constraint firstAttribute="trailing" secondItem="C9r-je-TSn" secondAttribute="trailing" id="Xtb-H5-BoQ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rPL-U8-eTt" firstAttribute="top" secondItem="bSD-CI-16b" secondAttribute="top" id="5sR-fP-dlV"/>
+                            <constraint firstItem="rPL-U8-eTt" firstAttribute="leading" secondItem="bSD-CI-16b" secondAttribute="leading" id="Rx4-UK-CbM"/>
+                            <constraint firstItem="c5a-yL-h1E" firstAttribute="top" secondItem="rPL-U8-eTt" secondAttribute="bottom" id="ojd-s2-dj1"/>
+                            <constraint firstAttribute="trailing" secondItem="rPL-U8-eTt" secondAttribute="trailing" id="qrS-ca-uaq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="绘制几何图形" id="g65-5k-ouR"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="contentView" destination="C9r-je-TSn" id="cXR-Rl-jNN"/>
+                        <outlet property="scrollView" destination="rPL-U8-eTt" id="YrT-jB-UGd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wkb-yJ-GoD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1874" y="188"/>
         </scene>
     </scenes>
 </document>
