@@ -54,6 +54,60 @@
                                             <segue destination="DE1-I8-zGr" kind="show" id="NeT-3h-k2q"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="Ysi-Rm-hvv">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ysi-Rm-hvv" id="5EK-eb-x9s">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="使用UIKit的动画" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPm-TH-9Uo">
+                                                    <rect key="frame" x="8" y="11" width="271" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="oZc-1m-fUI" kind="show" id="oZa-dU-QDc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="x4O-6n-twF">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="x4O-6n-twF" id="dVa-L3-rmQ">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Core Animation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WaA-Wh-Ssb">
+                                                    <rect key="frame" x="8" y="11" width="271" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ec7-c2-z2c" kind="show" id="1e6-TN-W1k"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="u0E-zN-naY">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="u0E-zN-naY" id="zWk-Yu-532">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="自定义控件" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQY-9e-ccy">
+                                                    <rect key="frame" x="8" y="11" width="271" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="APy-5Q-Kfy" kind="show" id="qs5-eT-tmZ"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -68,6 +122,235 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nY4-qR-Gio" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="999.375" y="290.49295774647885"/>
+        </scene>
+        <!--自定义控件-->
+        <scene sceneID="p0A-we-H9o">
+            <objects>
+                <viewController id="APy-5Q-Kfy" customClass="WwdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IbT-Uh-sZg"/>
+                        <viewControllerLayoutGuide type="bottom" id="zdU-xS-fn3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hEm-lo-Ctf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9Y-kx-fPc">
+                                <rect key="frame" x="16" y="72" width="288" height="30"/>
+                                <state key="normal" title="弹出View">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="popViewPressed:" destination="APy-5Q-Kfy" eventType="touchUpInside" id="YBN-YF-OJQ"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xo8-pt-2tM" customClass="WWDPopView">
+                                <rect key="frame" x="0.0" y="0.0" width="98" height="123"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="自定义控件" id="DUw-Kf-XYU"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="wwdPopView" destination="Xo8-pt-2tM" id="1MJ-1V-Tl0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fRg-pa-nW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="999" y="869"/>
+        </scene>
+        <!--Core Animation-->
+        <scene sceneID="f0B-kk-Xxa">
+            <objects>
+                <viewController id="ec7-c2-z2c" customClass="CoreAnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tqy-0T-bW9"/>
+                        <viewControllerLayoutGuide type="bottom" id="LCo-2P-gVc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jlh-hk-ef5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNm-sd-1pI">
+                                <rect key="frame" x="16" y="72" width="295" height="30"/>
+                                <state key="normal" title="CABasicAnimation">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="PAe-ib-KC9" kind="show" id="Mjl-Wm-gzM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLb-jN-IYc">
+                                <rect key="frame" x="16" y="110" width="295" height="30"/>
+                                <state key="normal" title="CAKeyframeAnimation">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eXH-7r-nVh" kind="show" id="tBB-WP-44V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CR6-aI-XY3">
+                                <rect key="frame" x="16" y="148" width="295" height="30"/>
+                                <state key="normal" title="路径动画(Keyframe加路径)">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="M0T-dO-ddO" kind="show" id="CHc-K2-2xo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qka-SJ-P2a">
+                                <rect key="frame" x="13" y="186" width="295" height="30"/>
+                                <state key="normal" title="动画过渡(CATransition)">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="spH-NA-Y0D" kind="show" id="zL1-0I-gdW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Core Animation" id="SGP-TC-riV"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xkm-tL-A53" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1456" y="620"/>
+        </scene>
+        <!--动画过渡(CATransition)-->
+        <scene sceneID="GSM-AA-lno">
+            <objects>
+                <viewController id="spH-NA-Y0D" customClass="CoreAnimation4ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MGV-Vy-Ffk"/>
+                        <viewControllerLayoutGuide type="bottom" id="9J9-V1-Zsg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lf3-Qf-Lmx" customClass="DemoCAView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HjV-Jf-5bO">
+                                <rect key="frame" x="137" y="442" width="46" height="30"/>
+                                <state key="normal" title="Drop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dropPressed:" destination="spH-NA-Y0D" eventType="touchUpInside" id="dii-xz-OcA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMa-r9-ma5">
+                                <rect key="frame" x="137" y="404" width="46" height="30"/>
+                                <state key="normal" title="Flip">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipPressed:" destination="spH-NA-Y0D" eventType="touchUpInside" id="xr5-o2-0yG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8y-Ba-nEL">
+                                <rect key="frame" x="137" y="366" width="46" height="30"/>
+                                <state key="normal" title="Rotate">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="rotatePressed:" destination="spH-NA-Y0D" eventType="touchUpInside" id="pTc-HH-VyF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTz-Pt-JR8">
+                                <rect key="frame" x="137" y="328" width="46" height="30"/>
+                                <state key="normal" title="Colors">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorsPressed:" destination="spH-NA-Y0D" eventType="touchUpInside" id="O12-Wa-lOo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="动画过渡(CATransition)" id="MIo-zV-Jr7"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="baseView" destination="Lf3-Qf-Lmx" id="rgR-Os-3bB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="reN-lq-BeG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1456" y="1169"/>
+        </scene>
+        <!--路径动画(Keyframe加路径)-->
+        <scene sceneID="oFN-wZ-lQp">
+            <objects>
+                <viewController id="M0T-dO-ddO" customClass="CoreAnimation3ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7kK-eA-uak"/>
+                        <viewControllerLayoutGuide type="bottom" id="q4X-9D-LGA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pe1-8e-0Yi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9z5-16-fVr">
+                                <rect key="frame" x="16" y="72" width="42" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.17254901959999999" blue="0.33333333329999998" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="路径动画(Keyframe加路径)" id="KKh-Fo-QV1"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="testLabel" destination="9z5-16-fVr" id="aJi-nb-40F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G0v-yE-CUZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2599" y="620"/>
+        </scene>
+        <!--CAKeyframeAnimation-->
+        <scene sceneID="MFl-Vb-hYg">
+            <objects>
+                <viewController id="eXH-7r-nVh" customClass="CoreAnimation2ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gbz-zw-SdM"/>
+                        <viewControllerLayoutGuide type="bottom" id="kOl-q8-itE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7EV-f3-F1j">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CAKeyframeAnimation" id="8eh-2f-nJB"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wac-gr-inH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1819" y="620"/>
+        </scene>
+        <!--CABasicAnimation-->
+        <scene sceneID="XEe-IG-ugi">
+            <objects>
+                <viewController id="PAe-ib-KC9" customClass="CoreAnimation1ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6mS-0j-2lR"/>
+                        <viewControllerLayoutGuide type="bottom" id="bZn-Nj-Pd1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AJX-1a-LwK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CABasicAnimation" id="Yg0-pu-2Cf"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eRX-gX-Dd3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2219" y="620"/>
         </scene>
         <!--图形图像与动画-->
         <scene sceneID="NVp-PV-ZJg">
@@ -87,7 +370,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M2s-eg-hKV">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UGS-cx-taM">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UGS-cx-taM">
                                                 <rect key="frame" x="8" y="20" width="304" height="30"/>
                                                 <state key="normal" title="使用UIImage和CGImage处理位图">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -96,13 +379,85 @@
                                                     <segue destination="N1x-h7-Dfo" kind="show" id="dbh-Ge-QeJ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aj1-qe-gXr">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aj1-qe-gXr">
                                                 <rect key="frame" x="8" y="70" width="304" height="30"/>
                                                 <state key="normal" title="绘制几何图形">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="fCW-tD-QTM" kind="show" id="Scc-wR-k6s"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zn8-KA-RTs">
+                                                <rect key="frame" x="8" y="108" width="304" height="30"/>
+                                                <state key="normal" title="绘制文本">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="LDc-60-CaF" kind="show" id="kiG-e1-NfE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZo-is-zPz">
+                                                <rect key="frame" x="8" y="146" width="304" height="30"/>
+                                                <state key="normal" title="设置阴影">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="Cyj-cB-cxo" kind="show" id="Igb-jL-pph"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4BO-cU-pbB">
+                                                <rect key="frame" x="8" y="184" width="304" height="30"/>
+                                                <state key="normal" title="使用路径">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="OjV-o2-THw" kind="show" id="5HS-gb-LYi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4L-KA-rVi">
+                                                <rect key="frame" x="8" y="222" width="304" height="30"/>
+                                                <state key="normal" title="绘制任意多角星和圆角矩形">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="SJC-1g-tRk" kind="show" id="SKl-lb-78B"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KiP-3j-iQc">
+                                                <rect key="frame" x="8" y="260" width="304" height="30"/>
+                                                <state key="normal" title="绘制曲线">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="dvV-mo-RcV" kind="show" id="nWb-8O-bPa"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGc-fZ-8lW">
+                                                <rect key="frame" x="8" y="298" width="304" height="30"/>
+                                                <state key="normal" title="在内存中绘图">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="UUK-g0-HsK" kind="show" id="7Vw-xf-m4s"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C64-lD-8xQ">
+                                                <rect key="frame" x="8" y="336" width="304" height="30"/>
+                                                <state key="normal" title="使用坐标变换">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="pyh-6Z-Vcz" kind="show" id="weA-Fw-uef"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2AK-rf-h5f">
+                                                <rect key="frame" x="8" y="374" width="304" height="30"/>
+                                                <state key="normal" title="雪花飘飘(坐标变换与路径结合使用)">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="KS9-0j-fAZ" kind="show" id="eXy-8e-KTg"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -141,7 +496,178 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dxo-Bu-HAP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1452" y="268"/>
+            <point key="canvasLocation" x="-1076" y="-472"/>
+        </scene>
+        <!--使用UIKit的动画-->
+        <scene sceneID="ZPm-HP-yXG">
+            <objects>
+                <viewController id="oZc-1m-fUI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nL9-YC-ROZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="OSP-N0-cb9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cxj-T9-vAC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47y-6q-KcE">
+                                <rect key="frame" x="16" y="225" width="288" height="30"/>
+                                <state key="normal" title="UIView动画区块">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="G8w-EA-pGj" kind="show" id="Tkh-na-Bbp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="使用UIKit的动画" id="Kci-zK-XA9"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bvQ-1Q-4D1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1456" y="74"/>
+        </scene>
+        <!--UIView动画区块-->
+        <scene sceneID="RRi-Du-Peo">
+            <objects>
+                <viewController id="G8w-EA-pGj" customClass="UIView1ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KOZ-mp-yfu"/>
+                        <viewControllerLayoutGuide type="bottom" id="n6F-yJ-ltH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XYu-kb-e5R">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="UIView动画区块" id="TaH-pe-jbf"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dh2-Iv-uwA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1847" y="74"/>
+        </scene>
+        <!--雪花飘飘-->
+        <scene sceneID="Mde-Zp-nyI">
+            <objects>
+                <viewController id="KS9-0j-fAZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VYU-4e-9PD"/>
+                        <viewControllerLayoutGuide type="bottom" id="uke-Wu-JD2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NSV-SY-xje" customClass="SnowView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="雪花飘飘" id="qhh-ic-N48"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2eM-MF-kXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-656" y="-472"/>
+        </scene>
+        <!--使用坐标变换-->
+        <scene sceneID="g1W-vt-5Qj">
+            <objects>
+                <viewController id="pyh-6Z-Vcz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vuZ-gt-2QD"/>
+                        <viewControllerLayoutGuide type="bottom" id="qBL-H4-jjh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AQ9-UT-5fV" customClass="TransformView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="使用坐标变换" id="Ony-0g-qns"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rMJ-NY-XdZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-272" y="-472"/>
+        </scene>
+        <!--在内存中绘图-->
+        <scene sceneID="bEp-TR-EDr">
+            <objects>
+                <viewController id="UUK-g0-HsK" customClass="Animation6ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RAT-L7-979"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hka-RO-AIa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xXD-Y3-Ieb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="在内存中绘图" id="9qs-d2-uAg"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Av-36-ZBN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114" y="-472"/>
+        </scene>
+        <!--绘制曲线-->
+        <scene sceneID="8RB-59-IKW">
+            <objects>
+                <viewController id="dvV-mo-RcV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P2t-IF-Tda"/>
+                        <viewControllerLayoutGuide type="bottom" id="ROy-et-meE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NA9-tG-ZDS" customClass="WWDCurveView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="绘制曲线" id="GhL-ag-dWH"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sTH-4m-Ba7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="508" y="-472"/>
+        </scene>
+        <!--绘制任意多角星和圆角矩形-->
+        <scene sceneID="PNU-kb-ZpI">
+            <objects>
+                <viewController id="SJC-1g-tRk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="avS-5q-A5Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="cgG-Oa-UIc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zcA-dF-7yZ" customClass="WWDPathView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="绘制任意多角星和圆角矩形" id="xJl-Tc-gM8"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kzq-Wb-bNK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="888" y="-472"/>
+        </scene>
+        <!--使用路径-->
+        <scene sceneID="siM-hH-Pgm">
+            <objects>
+                <viewController id="OjV-o2-THw" customClass="Animation5ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aAG-wg-X7u"/>
+                        <viewControllerLayoutGuide type="bottom" id="avC-m1-IhW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RcI-El-qlZ" customClass="WWDArcView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="使用路径" id="BYh-LF-WOY"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="klH-hq-6m1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2963" y="-472"/>
         </scene>
         <!--使用UIImage和CGImage处理位图-->
         <scene sceneID="XJ2-DK-875">
@@ -200,7 +726,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z7H-Fk-dhl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1874" y="-388"/>
+            <point key="canvasLocation" x="1318" y="-472"/>
         </scene>
         <!--绘制几何图形-->
         <scene sceneID="o3b-ly-o3A">
@@ -251,7 +777,61 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wkb-yJ-GoD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1874" y="188"/>
+            <point key="canvasLocation" x="1726" y="-472"/>
+        </scene>
+        <!--设置阴影-->
+        <scene sceneID="2gb-g5-ZiK">
+            <objects>
+                <viewController id="Cyj-cB-cxo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OKP-Cj-9PG"/>
+                        <viewControllerLayoutGuide type="bottom" id="VRE-6k-LhK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nPy-jv-Drv" customClass="WWDShadowView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="设置阴影" id="Jfj-n4-0Oa"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ADY-c8-Yqn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2572" y="-472"/>
+        </scene>
+        <!--绘制文本-->
+        <scene sceneID="9iA-lu-fm6">
+            <objects>
+                <viewController id="LDc-60-CaF" customClass="Animation3ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AbA-DL-nua"/>
+                        <viewControllerLayoutGuide type="bottom" id="zRy-Wh-tIL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2LX-w2-H8Q" customClass="WWDTextView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.10000000000000001" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="uZJ-Te-wqt">
+                                <rect key="frame" x="14" y="404" width="292" height="31"/>
+                                <connections>
+                                    <action selector="scaleChanged:" destination="LDc-60-CaF" eventType="valueChanged" id="07f-jY-gGt"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="-90" maxValue="90" translatesAutoresizingMaskIntoConstraints="NO" id="mzs-c3-SVg">
+                                <rect key="frame" x="14" y="442" width="292" height="31"/>
+                                <connections>
+                                    <action selector="rotateChanged:" destination="LDc-60-CaF" eventType="valueChanged" id="ozX-Zf-Vc1"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="绘制文本" id="RwS-zK-GpA"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bam-0u-zpG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2156" y="-472"/>
         </scene>
     </scenes>
 </document>

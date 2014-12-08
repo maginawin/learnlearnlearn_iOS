@@ -19,6 +19,27 @@
 		0807E2061A315F13003695F6 /* Animation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E2051A315F13003695F6 /* Animation1ViewController.m */; };
 		0807E2091A318A1A003695F6 /* Animation2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E2081A318A1A003695F6 /* Animation2ViewController.m */; };
 		0807E20D1A318B71003695F6 /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E20C1A318B71003695F6 /* Geometry.m */; };
+		08A78DD31A35390300FC6290 /* Animation3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A78DD21A35390300FC6290 /* Animation3ViewController.m */; };
+		08A78DD61A353A8600FC6290 /* WWDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A78DD51A353A8600FC6290 /* WWDTextView.m */; };
+		08E325B81A3546A000097224 /* Animation4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325B71A3546A000097224 /* Animation4ViewController.m */; };
+		08E325BB1A3546D600097224 /* WWDShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325BA1A3546D600097224 /* WWDShadowView.m */; };
+		08E325BE1A354DAC00097224 /* Animation5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325BD1A354DAC00097224 /* Animation5ViewController.m */; };
+		08E325C11A354F9C00097224 /* WWDArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325C01A354F9C00097224 /* WWDArcView.m */; };
+		08E325C51A35577200097224 /* WWDPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325C41A35577200097224 /* WWDPathView.m */; };
+		08E325C81A3577C700097224 /* WWDCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325C71A3577C700097224 /* WWDCurveView.m */; };
+		08E325CB1A357BA700097224 /* Animation6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325CA1A357BA700097224 /* Animation6ViewController.m */; };
+		08E325CE1A3582E200097224 /* Animation7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325CD1A3582E200097224 /* Animation7ViewController.m */; };
+		08E325D11A35837400097224 /* TransformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325D01A35837400097224 /* TransformView.m */; };
+		08E325D41A3584E000097224 /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325D31A3584E000097224 /* SnowView.m */; };
+		08E325D81A358D1700097224 /* UIView1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325D71A358D1700097224 /* UIView1ViewController.m */; };
+		08E325DC1A35971000097224 /* CoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325DB1A35971000097224 /* CoreAnimationViewController.m */; };
+		08E325E01A359A2500097224 /* CoreAnimation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325DF1A359A2500097224 /* CoreAnimation1ViewController.m */; };
+		08E325E31A359C8100097224 /* CoreAnimation2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325E21A359C8100097224 /* CoreAnimation2ViewController.m */; };
+		08E325E71A359DE500097224 /* CoreAnimation3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325E61A359DE500097224 /* CoreAnimation3ViewController.m */; };
+		08E325EA1A35AA7900097224 /* CoreAnimation4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325E91A35AA7900097224 /* CoreAnimation4ViewController.m */; };
+		08E325ED1A35AD2300097224 /* DemoCAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325EC1A35AD2300097224 /* DemoCAView.m */; };
+		08E325F11A35C3B300097224 /* WWDPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325F01A35C3B300097224 /* WWDPopView.m */; };
+		08E325F41A35C4C300097224 /* WwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325F31A35C4C300097224 /* WwdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +76,49 @@
 		0807E2081A318A1A003695F6 /* Animation2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation2ViewController.m; sourceTree = "<group>"; };
 		0807E20B1A318B71003695F6 /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
 		0807E20C1A318B71003695F6 /* Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geometry.m; sourceTree = "<group>"; };
+		08A78DD11A35390300FC6290 /* Animation3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation3ViewController.h; sourceTree = "<group>"; };
+		08A78DD21A35390300FC6290 /* Animation3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation3ViewController.m; sourceTree = "<group>"; };
+		08A78DD41A353A8600FC6290 /* WWDTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDTextView.h; sourceTree = "<group>"; };
+		08A78DD51A353A8600FC6290 /* WWDTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDTextView.m; sourceTree = "<group>"; };
+		08E325B61A3546A000097224 /* Animation4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation4ViewController.h; sourceTree = "<group>"; };
+		08E325B71A3546A000097224 /* Animation4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation4ViewController.m; sourceTree = "<group>"; };
+		08E325B91A3546D600097224 /* WWDShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDShadowView.h; sourceTree = "<group>"; };
+		08E325BA1A3546D600097224 /* WWDShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDShadowView.m; sourceTree = "<group>"; };
+		08E325BC1A354DAC00097224 /* Animation5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation5ViewController.h; sourceTree = "<group>"; };
+		08E325BD1A354DAC00097224 /* Animation5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation5ViewController.m; sourceTree = "<group>"; };
+		08E325BF1A354F9C00097224 /* WWDArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDArcView.h; sourceTree = "<group>"; };
+		08E325C01A354F9C00097224 /* WWDArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDArcView.m; sourceTree = "<group>"; };
+		08E325C21A3553B800097224 /* WWDContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWDContext.h; sourceTree = "<group>"; };
+		08E325C31A35577200097224 /* WWDPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDPathView.h; sourceTree = "<group>"; };
+		08E325C41A35577200097224 /* WWDPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDPathView.m; sourceTree = "<group>"; };
+		08E325C61A3577C700097224 /* WWDCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDCurveView.h; sourceTree = "<group>"; };
+		08E325C71A3577C700097224 /* WWDCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDCurveView.m; sourceTree = "<group>"; };
+		08E325C91A357BA700097224 /* Animation6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation6ViewController.h; sourceTree = "<group>"; };
+		08E325CA1A357BA700097224 /* Animation6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation6ViewController.m; sourceTree = "<group>"; };
+		08E325CC1A3582E200097224 /* Animation7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation7ViewController.h; sourceTree = "<group>"; };
+		08E325CD1A3582E200097224 /* Animation7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation7ViewController.m; sourceTree = "<group>"; };
+		08E325CF1A35837400097224 /* TransformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformView.h; sourceTree = "<group>"; };
+		08E325D01A35837400097224 /* TransformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformView.m; sourceTree = "<group>"; };
+		08E325D21A3584E000097224 /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
+		08E325D31A3584E000097224 /* SnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
+		08E325D61A358D1700097224 /* UIView1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView1ViewController.h; sourceTree = "<group>"; };
+		08E325D71A358D1700097224 /* UIView1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView1ViewController.m; sourceTree = "<group>"; };
+		08E325DA1A35971000097224 /* CoreAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationViewController.h; sourceTree = "<group>"; };
+		08E325DB1A35971000097224 /* CoreAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationViewController.m; sourceTree = "<group>"; };
+		08E325DE1A359A2500097224 /* CoreAnimation1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation1ViewController.h; sourceTree = "<group>"; };
+		08E325DF1A359A2500097224 /* CoreAnimation1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation1ViewController.m; sourceTree = "<group>"; };
+		08E325E11A359C8100097224 /* CoreAnimation2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation2ViewController.h; sourceTree = "<group>"; };
+		08E325E21A359C8100097224 /* CoreAnimation2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation2ViewController.m; sourceTree = "<group>"; };
+		08E325E51A359DE500097224 /* CoreAnimation3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation3ViewController.h; sourceTree = "<group>"; };
+		08E325E61A359DE500097224 /* CoreAnimation3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation3ViewController.m; sourceTree = "<group>"; };
+		08E325E81A35AA7900097224 /* CoreAnimation4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation4ViewController.h; sourceTree = "<group>"; };
+		08E325E91A35AA7900097224 /* CoreAnimation4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation4ViewController.m; sourceTree = "<group>"; };
+		08E325EB1A35AD2300097224 /* DemoCAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCAView.h; sourceTree = "<group>"; };
+		08E325EC1A35AD2300097224 /* DemoCAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCAView.m; sourceTree = "<group>"; };
+		08E325EF1A35C3B300097224 /* WWDPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDPopView.h; sourceTree = "<group>"; };
+		08E325F01A35C3B300097224 /* WWDPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDPopView.m; sourceTree = "<group>"; };
+		08E325F21A35C4C300097224 /* WwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WwdViewController.h; sourceTree = "<group>"; };
+		08E325F31A35C4C300097224 /* WwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WwdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +160,10 @@
 		0807E1D31A313ED2003695F6 /* LearnLearnLearn */ = {
 			isa = PBXGroup;
 			children = (
+				08E325EE1A35C35100097224 /* WWD */,
+				08E325D91A35970000097224 /* CoreAnimation */,
 				0807E2031A315EFA003695F6 /* animation */,
+				08E325D51A358C2400097224 /* UIKitAnimate */,
 				0807E1D81A313ED2003695F6 /* AppDelegate.h */,
 				0807E1D91A313ED2003695F6 /* AppDelegate.m */,
 				0807E1DE1A313ED2003695F6 /* ViewController.h */,
@@ -146,10 +213,74 @@
 				0807E2051A315F13003695F6 /* Animation1ViewController.m */,
 				0807E2071A318A1A003695F6 /* Animation2ViewController.h */,
 				0807E2081A318A1A003695F6 /* Animation2ViewController.m */,
+				08A78DD11A35390300FC6290 /* Animation3ViewController.h */,
+				08A78DD21A35390300FC6290 /* Animation3ViewController.m */,
+				08E325B61A3546A000097224 /* Animation4ViewController.h */,
+				08E325B71A3546A000097224 /* Animation4ViewController.m */,
+				08E325BC1A354DAC00097224 /* Animation5ViewController.h */,
+				08E325BD1A354DAC00097224 /* Animation5ViewController.m */,
+				08E325C91A357BA700097224 /* Animation6ViewController.h */,
+				08E325CA1A357BA700097224 /* Animation6ViewController.m */,
+				08E325CC1A3582E200097224 /* Animation7ViewController.h */,
+				08E325CD1A3582E200097224 /* Animation7ViewController.m */,
 				0807E20B1A318B71003695F6 /* Geometry.h */,
 				0807E20C1A318B71003695F6 /* Geometry.m */,
+				08A78DD41A353A8600FC6290 /* WWDTextView.h */,
+				08A78DD51A353A8600FC6290 /* WWDTextView.m */,
+				08E325B91A3546D600097224 /* WWDShadowView.h */,
+				08E325BA1A3546D600097224 /* WWDShadowView.m */,
+				08E325BF1A354F9C00097224 /* WWDArcView.h */,
+				08E325C01A354F9C00097224 /* WWDArcView.m */,
+				08E325C21A3553B800097224 /* WWDContext.h */,
+				08E325C31A35577200097224 /* WWDPathView.h */,
+				08E325C41A35577200097224 /* WWDPathView.m */,
+				08E325C61A3577C700097224 /* WWDCurveView.h */,
+				08E325C71A3577C700097224 /* WWDCurveView.m */,
+				08E325CF1A35837400097224 /* TransformView.h */,
+				08E325D01A35837400097224 /* TransformView.m */,
+				08E325D21A3584E000097224 /* SnowView.h */,
+				08E325D31A3584E000097224 /* SnowView.m */,
 			);
 			name = animation;
+			sourceTree = "<group>";
+		};
+		08E325D51A358C2400097224 /* UIKitAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				08E325D61A358D1700097224 /* UIView1ViewController.h */,
+				08E325D71A358D1700097224 /* UIView1ViewController.m */,
+			);
+			name = UIKitAnimate;
+			sourceTree = "<group>";
+		};
+		08E325D91A35970000097224 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				08E325DA1A35971000097224 /* CoreAnimationViewController.h */,
+				08E325DB1A35971000097224 /* CoreAnimationViewController.m */,
+				08E325DE1A359A2500097224 /* CoreAnimation1ViewController.h */,
+				08E325DF1A359A2500097224 /* CoreAnimation1ViewController.m */,
+				08E325E11A359C8100097224 /* CoreAnimation2ViewController.h */,
+				08E325E21A359C8100097224 /* CoreAnimation2ViewController.m */,
+				08E325E51A359DE500097224 /* CoreAnimation3ViewController.h */,
+				08E325E61A359DE500097224 /* CoreAnimation3ViewController.m */,
+				08E325E81A35AA7900097224 /* CoreAnimation4ViewController.h */,
+				08E325E91A35AA7900097224 /* CoreAnimation4ViewController.m */,
+				08E325EB1A35AD2300097224 /* DemoCAView.h */,
+				08E325EC1A35AD2300097224 /* DemoCAView.m */,
+			);
+			name = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		08E325EE1A35C35100097224 /* WWD */ = {
+			isa = PBXGroup;
+			children = (
+				08E325EF1A35C3B300097224 /* WWDPopView.h */,
+				08E325F01A35C3B300097224 /* WWDPopView.m */,
+				08E325F21A35C4C300097224 /* WwdViewController.h */,
+				08E325F31A35C4C300097224 /* WwdViewController.m */,
+			);
+			name = WWD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,15 +382,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E325E71A359DE500097224 /* CoreAnimation3ViewController.m in Sources */,
 				0807E20D1A318B71003695F6 /* Geometry.m in Sources */,
+				08E325C11A354F9C00097224 /* WWDArcView.m in Sources */,
+				08E325C51A35577200097224 /* WWDPathView.m in Sources */,
+				08E325F11A35C3B300097224 /* WWDPopView.m in Sources */,
+				08E325F41A35C4C300097224 /* WwdViewController.m in Sources */,
 				0807E1DA1A313ED2003695F6 /* AppDelegate.m in Sources */,
 				0807E1FF1A313F77003695F6 /* LearnTableViewController.m in Sources */,
+				08E325D81A358D1700097224 /* UIView1ViewController.m in Sources */,
 				0807E1DD1A313ED2003695F6 /* LearnLearnLearn.xcdatamodeld in Sources */,
+				08E325D41A3584E000097224 /* SnowView.m in Sources */,
+				08E325B81A3546A000097224 /* Animation4ViewController.m in Sources */,
+				08A78DD61A353A8600FC6290 /* WWDTextView.m in Sources */,
+				08E325E01A359A2500097224 /* CoreAnimation1ViewController.m in Sources */,
 				0807E2021A3140A8003695F6 /* AnimationViewController.m in Sources */,
+				08E325EA1A35AA7900097224 /* CoreAnimation4ViewController.m in Sources */,
+				08E325E31A359C8100097224 /* CoreAnimation2ViewController.m in Sources */,
+				08E325ED1A35AD2300097224 /* DemoCAView.m in Sources */,
+				08E325D11A35837400097224 /* TransformView.m in Sources */,
+				08E325BE1A354DAC00097224 /* Animation5ViewController.m in Sources */,
+				08E325CE1A3582E200097224 /* Animation7ViewController.m in Sources */,
+				08E325BB1A3546D600097224 /* WWDShadowView.m in Sources */,
 				0807E1E01A313ED2003695F6 /* ViewController.m in Sources */,
+				08E325C81A3577C700097224 /* WWDCurveView.m in Sources */,
 				0807E2061A315F13003695F6 /* Animation1ViewController.m in Sources */,
+				08E325DC1A35971000097224 /* CoreAnimationViewController.m in Sources */,
+				08E325CB1A357BA700097224 /* Animation6ViewController.m in Sources */,
 				0807E2091A318A1A003695F6 /* Animation2ViewController.m in Sources */,
 				0807E1D71A313ED2003695F6 /* main.m in Sources */,
+				08A78DD31A35390300FC6290 /* Animation3ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +598,7 @@
 				0807E1F91A313ED2003695F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0807E1FA1A313ED2003695F6 /* Build configuration list for PBXNativeTarget "LearnLearnLearnTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +607,7 @@
 				0807E1FC1A313ED2003695F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
