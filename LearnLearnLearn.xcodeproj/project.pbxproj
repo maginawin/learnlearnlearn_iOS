@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08043D931A36894900C96A7F /* UISVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08043D921A36894900C96A7F /* UISVViewController.m */; };
+		08043D971A36928500C96A7F /* UIViewCMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08043D961A36928500C96A7F /* UIViewCMViewController.m */; };
+		08043D9A1A36936D00C96A7F /* JCUIViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08043D991A36936D00C96A7F /* JCUIViewViewController.m */; };
+		08043D9D1A36948600C96A7F /* RedBoxWithTouches.m in Sources */ = {isa = PBXBuildFile; fileRef = 08043D9C1A36948600C96A7F /* RedBoxWithTouches.m */; };
+		08043DA01A36A83200C96A7F /* GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08043D9F1A36A83200C96A7F /* GestureViewController.m */; };
+		08043DA31A36A85700C96A7F /* CustomerGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 08043DA21A36A85700C96A7F /* CustomerGesture.m */; };
 		0807E1D71A313ED2003695F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E1D61A313ED2003695F6 /* main.m */; };
 		0807E1DA1A313ED2003695F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E1D91A313ED2003695F6 /* AppDelegate.m */; };
 		0807E1DD1A313ED2003695F6 /* LearnLearnLearn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0807E1DB1A313ED2003695F6 /* LearnLearnLearn.xcdatamodeld */; };
@@ -53,6 +59,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08043D911A36894900C96A7F /* UISVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISVViewController.h; sourceTree = "<group>"; };
+		08043D921A36894900C96A7F /* UISVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISVViewController.m; sourceTree = "<group>"; };
+		08043D951A36928500C96A7F /* UIViewCMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewCMViewController.h; sourceTree = "<group>"; };
+		08043D961A36928500C96A7F /* UIViewCMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewCMViewController.m; sourceTree = "<group>"; };
+		08043D981A36936D00C96A7F /* JCUIViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCUIViewViewController.h; sourceTree = "<group>"; };
+		08043D991A36936D00C96A7F /* JCUIViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCUIViewViewController.m; sourceTree = "<group>"; };
+		08043D9B1A36948600C96A7F /* RedBoxWithTouches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedBoxWithTouches.h; sourceTree = "<group>"; };
+		08043D9C1A36948600C96A7F /* RedBoxWithTouches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedBoxWithTouches.m; sourceTree = "<group>"; };
+		08043D9E1A36A83200C96A7F /* GestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureViewController.h; sourceTree = "<group>"; };
+		08043D9F1A36A83200C96A7F /* GestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureViewController.m; sourceTree = "<group>"; };
+		08043DA11A36A85700C96A7F /* CustomerGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerGesture.h; sourceTree = "<group>"; };
+		08043DA21A36A85700C96A7F /* CustomerGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerGesture.m; sourceTree = "<group>"; };
 		0807E1D11A313ED2003695F6 /* LearnLearnLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnLearnLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0807E1D51A313ED2003695F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0807E1D61A313ED2003695F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -139,6 +157,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08043D901A36892F00C96A7F /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				08043D911A36894900C96A7F /* UISVViewController.h */,
+				08043D921A36894900C96A7F /* UISVViewController.m */,
+			);
+			name = UIScrollView;
+			sourceTree = "<group>";
+		};
+		08043D941A36927100C96A7F /* UIViewChuMo */ = {
+			isa = PBXGroup;
+			children = (
+				08043D951A36928500C96A7F /* UIViewCMViewController.h */,
+				08043D961A36928500C96A7F /* UIViewCMViewController.m */,
+				08043D981A36936D00C96A7F /* JCUIViewViewController.h */,
+				08043D991A36936D00C96A7F /* JCUIViewViewController.m */,
+				08043D9B1A36948600C96A7F /* RedBoxWithTouches.h */,
+				08043D9C1A36948600C96A7F /* RedBoxWithTouches.m */,
+				08043D9E1A36A83200C96A7F /* GestureViewController.h */,
+				08043D9F1A36A83200C96A7F /* GestureViewController.m */,
+				08043DA11A36A85700C96A7F /* CustomerGesture.h */,
+				08043DA21A36A85700C96A7F /* CustomerGesture.m */,
+			);
+			name = UIViewChuMo;
+			sourceTree = "<group>";
+		};
 		0807E1C81A313ED2003695F6 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +204,8 @@
 		0807E1D31A313ED2003695F6 /* LearnLearnLearn */ = {
 			isa = PBXGroup;
 			children = (
+				08043D941A36927100C96A7F /* UIViewChuMo */,
+				08043D901A36892F00C96A7F /* UIScrollView */,
 				08E325EE1A35C35100097224 /* WWD */,
 				08E325D91A35970000097224 /* CoreAnimation */,
 				0807E2031A315EFA003695F6 /* animation */,
@@ -403,15 +449,21 @@
 				08E325D11A35837400097224 /* TransformView.m in Sources */,
 				08E325BE1A354DAC00097224 /* Animation5ViewController.m in Sources */,
 				08E325CE1A3582E200097224 /* Animation7ViewController.m in Sources */,
+				08043DA31A36A85700C96A7F /* CustomerGesture.m in Sources */,
 				08E325BB1A3546D600097224 /* WWDShadowView.m in Sources */,
 				0807E1E01A313ED2003695F6 /* ViewController.m in Sources */,
 				08E325C81A3577C700097224 /* WWDCurveView.m in Sources */,
 				0807E2061A315F13003695F6 /* Animation1ViewController.m in Sources */,
 				08E325DC1A35971000097224 /* CoreAnimationViewController.m in Sources */,
 				08E325CB1A357BA700097224 /* Animation6ViewController.m in Sources */,
+				08043D971A36928500C96A7F /* UIViewCMViewController.m in Sources */,
 				0807E2091A318A1A003695F6 /* Animation2ViewController.m in Sources */,
+				08043DA01A36A83200C96A7F /* GestureViewController.m in Sources */,
+				08043D9A1A36936D00C96A7F /* JCUIViewViewController.m in Sources */,
+				08043D931A36894900C96A7F /* UISVViewController.m in Sources */,
 				0807E1D71A313ED2003695F6 /* main.m in Sources */,
 				08A78DD31A35390300FC6290 /* Animation3ViewController.m in Sources */,
+				08043D9D1A36948600C96A7F /* RedBoxWithTouches.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

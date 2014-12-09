@@ -23,7 +23,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q5z-Ra-77u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="575" y="337"/>
+            <point key="canvasLocation" x="903" y="141"/>
         </scene>
         <!--LearnLearnLearn-->
         <scene sceneID="Rtt-Rg-W0c">
@@ -108,6 +108,42 @@
                                             <segue destination="APy-5Q-Kfy" kind="show" id="qs5-eT-tmZ"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="xga-xl-5xM">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xga-xl-5xM" id="qDV-AJ-AtO">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UIScrollView缩放" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YfG-Gc-AOa">
+                                                    <rect key="frame" x="8" y="11" width="271" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BN9-cm-nbz" kind="show" id="fzm-Ci-EjV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="kAz-DM-U65">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kAz-DM-U65" id="yOa-Mc-mJP">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UIView触摸事件" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fq6-xi-fza">
+                                                    <rect key="frame" x="8" y="11" width="271" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Pbe-rh-TJ6" kind="show" id="qPy-vh-j9y"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -121,7 +157,107 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nY4-qR-Gio" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="999.375" y="290.49295774647885"/>
+            <point key="canvasLocation" x="575" y="1070"/>
+        </scene>
+        <!--UIView触摸事件-->
+        <scene sceneID="ozK-Gg-83W">
+            <objects>
+                <viewController id="Pbe-rh-TJ6" customClass="UIViewCMViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qoG-vL-a7V"/>
+                        <viewControllerLayoutGuide type="bottom" id="dkm-t5-1H8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RQ1-4i-8Sr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DrW-nB-qde">
+                                <rect key="frame" x="16" y="72" width="288" height="30"/>
+                                <state key="normal" title="检测UIView触摸事件">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Gnb-AJ-JoI" kind="show" id="i5Q-he-LD3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DkR-aY-cSZ">
+                                <rect key="frame" x="16" y="110" width="288" height="30"/>
+                                <state key="normal" title="手势识别器">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oGP-gI-xei" kind="show" id="OgU-EV-wRr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="UIView触摸事件" id="YZ7-co-03k"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EZ3-tb-8tF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="974" y="1246"/>
+        </scene>
+        <!--手势识别器-->
+        <scene sceneID="2w5-ra-H6M">
+            <objects>
+                <viewController id="oGP-gI-xei" customClass="GestureViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yax-a6-AL6"/>
+                        <viewControllerLayoutGuide type="bottom" id="8i5-k9-L0T"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rA9-df-fWD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="手势识别器" id="ZJd-Sk-q68"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k5L-9x-65k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1269" y="1801"/>
+        </scene>
+        <!--检测UIView触摸事件-->
+        <scene sceneID="V3p-Bp-U2z">
+            <objects>
+                <viewController id="Gnb-AJ-JoI" customClass="JCUIViewViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JAv-i8-xBS"/>
+                        <viewControllerLayoutGuide type="bottom" id="f5a-g7-nTE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yd9-pV-cTS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="检测UIView触摸事件" id="Ilq-ct-e7Q"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gtr-mh-AxS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1434" y="1246"/>
+        </scene>
+        <!--UIScrollView缩放-->
+        <scene sceneID="TZv-ua-Woj">
+            <objects>
+                <viewController id="BN9-cm-nbz" customClass="UISVViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3wf-6t-MZd"/>
+                        <viewControllerLayoutGuide type="bottom" id="5P3-08-1FT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xhm-qM-ciu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="UIScrollView缩放" id="a8a-cq-xUQ"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="unJ-gY-N5U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9" y="710"/>
         </scene>
         <!--自定义控件-->
         <scene sceneID="p0A-we-H9o">
@@ -159,7 +295,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fRg-pa-nW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="999" y="869"/>
+            <point key="canvasLocation" x="383" y="133"/>
         </scene>
         <!--Core Animation-->
         <scene sceneID="f0B-kk-Xxa">
@@ -278,7 +414,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="reN-lq-BeG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1456" y="1169"/>
+            <point key="canvasLocation" x="3016" y="620"/>
         </scene>
         <!--路径动画(Keyframe加路径)-->
         <scene sceneID="oFN-wZ-lQp">
