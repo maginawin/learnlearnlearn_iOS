@@ -1,27 +1,41 @@
 //
-//  LearnTableViewController.m
+//  ScrollTableViewController.m
 //  LearnLearnLearn
 //
-//  Created by maginawin on 14-12-5.
+//  Created by maginawin on 14-12-19.
 //  Copyright (c) 2014年 mycj.wwd. All rights reserved.
 //
 
-#import "LearnTableViewController.h"
+#import "ScrollTableViewController.h"
 
-@interface LearnTableViewController ()
-
+@interface ScrollTableViewController ()
 @end
 
-@implementation LearnTableViewController
+@implementation ScrollTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    _pageStr = @"page";
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    _refreshA = [[UIRefreshControl alloc] init];
+    _refreshA.tintColor = [UIColor redColor];
+    _refreshA.attributedTitle = [[NSMutableAttributedString alloc]initWithString:@"下拉刷新"];
+    [_refreshA addTarget:self action:@selector(refreshSelf) forControlEvents:UIControlEventValueChanged];
+}
+
+- (void)refreshSelf{
+    _refreshA.attributedTitle = [[NSAttributedString alloc]initWithString:@"正在刷新"];
+    [self performSelector:@selector(handleSelf) withObject:nil afterDelay:2];
+    NSLog(@"正在刷新");
+}
+
+- (void)handleSelf{
+    [_refreshA endRefreshing];
+    _refreshA.attributedTitle = [[NSAttributedString alloc] initWithString:@"下拉刷新"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,30 +46,27 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-
     // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
     // Return the number of rows in the section.
-    return 9;
+    return 1;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return self.view.frame.size.height;
 }
 
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
-}
-*/
+//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+////    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID" forIndexPath:indexPath];
+//    UILabel* pageLabel = (UILabel*)[tableView viewWithTag:1];
+//    pageLabel.text = _pageStr;
+//    // Configure the cell...
+//    
+//    return nil;
+//}
 
 /*
 // Override to support conditional editing of the table view.

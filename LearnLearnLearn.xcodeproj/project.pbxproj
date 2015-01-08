@@ -25,6 +25,15 @@
 		0807E2061A315F13003695F6 /* Animation1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E2051A315F13003695F6 /* Animation1ViewController.m */; };
 		0807E2091A318A1A003695F6 /* Animation2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E2081A318A1A003695F6 /* Animation2ViewController.m */; };
 		0807E20D1A318B71003695F6 /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0807E20C1A318B71003695F6 /* Geometry.m */; };
+		08156BBD1A3E8E7D0044B0C0 /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08156BBC1A3E8E7D0044B0C0 /* WebViewViewController.m */; };
+		08156BC11A3EB4DA0044B0C0 /* PageControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08156BC01A3EB4DA0044B0C0 /* PageControlViewController.m */; };
+		0816768B1A43B08900269E48 /* I2WatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0816768A1A43B08900269E48 /* I2WatchViewController.m */; };
+		0816768E1A43B0CF00269E48 /* ScrollCotentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0816768D1A43B0CF00269E48 /* ScrollCotentViewController.m */; };
+		081676911A440A6A00269E48 /* ScrollTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081676901A440A6A00269E48 /* ScrollTableViewController.m */; };
+		081957C41A5A32F2009049DF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 081957C31A5A32F2009049DF /* Reachability.m */; };
+		081957C71A5A3324009049DF /* HttpReachabilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081957C61A5A3324009049DF /* HttpReachabilityViewController.m */; };
+		086A115B1A5E862700F966F5 /* LocalNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 086A115A1A5E862700F966F5 /* LocalNotificationViewController.m */; };
+		086A115D1A5E875500F966F5 /* Button9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 086A115C1A5E875500F966F5 /* Button9.wav */; };
 		08A78DD31A35390300FC6290 /* Animation3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A78DD21A35390300FC6290 /* Animation3ViewController.m */; };
 		08A78DD61A353A8600FC6290 /* WWDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A78DD51A353A8600FC6290 /* WWDTextView.m */; };
 		08E325B81A3546A000097224 /* Animation4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E325B71A3546A000097224 /* Animation4ViewController.m */; };
@@ -94,6 +103,23 @@
 		0807E2081A318A1A003695F6 /* Animation2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation2ViewController.m; sourceTree = "<group>"; };
 		0807E20B1A318B71003695F6 /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
 		0807E20C1A318B71003695F6 /* Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geometry.m; sourceTree = "<group>"; };
+		08156BBB1A3E8E7D0044B0C0 /* WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewViewController.h; sourceTree = "<group>"; };
+		08156BBC1A3E8E7D0044B0C0 /* WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewViewController.m; sourceTree = "<group>"; };
+		08156BBF1A3EB4DA0044B0C0 /* PageControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControlViewController.h; sourceTree = "<group>"; };
+		08156BC01A3EB4DA0044B0C0 /* PageControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControlViewController.m; sourceTree = "<group>"; };
+		081676891A43B08900269E48 /* I2WatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I2WatchViewController.h; sourceTree = "<group>"; };
+		0816768A1A43B08900269E48 /* I2WatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I2WatchViewController.m; sourceTree = "<group>"; };
+		0816768C1A43B0CF00269E48 /* ScrollCotentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollCotentViewController.h; sourceTree = "<group>"; };
+		0816768D1A43B0CF00269E48 /* ScrollCotentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollCotentViewController.m; sourceTree = "<group>"; };
+		0816768F1A440A6A00269E48 /* ScrollTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollTableViewController.h; sourceTree = "<group>"; };
+		081676901A440A6A00269E48 /* ScrollTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollTableViewController.m; sourceTree = "<group>"; };
+		081957C21A5A32F2009049DF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		081957C31A5A32F2009049DF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		081957C51A5A3324009049DF /* HttpReachabilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpReachabilityViewController.h; sourceTree = "<group>"; };
+		081957C61A5A3324009049DF /* HttpReachabilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpReachabilityViewController.m; sourceTree = "<group>"; };
+		086A11591A5E862700F966F5 /* LocalNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotificationViewController.h; sourceTree = "<group>"; };
+		086A115A1A5E862700F966F5 /* LocalNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationViewController.m; sourceTree = "<group>"; };
+		086A115C1A5E875500F966F5 /* Button9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Button9.wav; sourceTree = "<group>"; };
 		08A78DD11A35390300FC6290 /* Animation3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation3ViewController.h; sourceTree = "<group>"; };
 		08A78DD21A35390300FC6290 /* Animation3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation3ViewController.m; sourceTree = "<group>"; };
 		08A78DD41A353A8600FC6290 /* WWDTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDTextView.h; sourceTree = "<group>"; };
@@ -204,6 +230,10 @@
 		0807E1D31A313ED2003695F6 /* LearnLearnLearn */ = {
 			isa = PBXGroup;
 			children = (
+				086A11581A5E861700F966F5 /* 本地通知 */,
+				081957C11A5A32D0009049DF /* Http */,
+				081676831A43AEF600269E48 /* I2Watch */,
+				08156BB91A3E8E5D0044B0C0 /* iOSReView */,
 				08043D941A36927100C96A7F /* UIViewChuMo */,
 				08043D901A36892F00C96A7F /* UIScrollView */,
 				08E325EE1A35C35100097224 /* WWD */,
@@ -227,6 +257,7 @@
 		0807E1D41A313ED2003695F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				086A115C1A5E875500F966F5 /* Button9.wav */,
 				0807E1D51A313ED2003695F6 /* Info.plist */,
 				0807E1D61A313ED2003695F6 /* main.m */,
 			);
@@ -288,6 +319,66 @@
 				08E325D31A3584E000097224 /* SnowView.m */,
 			);
 			name = animation;
+			sourceTree = "<group>";
+		};
+		08156BB91A3E8E5D0044B0C0 /* iOSReView */ = {
+			isa = PBXGroup;
+			children = (
+				08156BBE1A3EB4CC0044B0C0 /* pageControl */,
+				08156BBA1A3E8E650044B0C0 /* WebView */,
+			);
+			name = iOSReView;
+			sourceTree = "<group>";
+		};
+		08156BBA1A3E8E650044B0C0 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				08156BBB1A3E8E7D0044B0C0 /* WebViewViewController.h */,
+				08156BBC1A3E8E7D0044B0C0 /* WebViewViewController.m */,
+			);
+			name = WebView;
+			sourceTree = "<group>";
+		};
+		08156BBE1A3EB4CC0044B0C0 /* pageControl */ = {
+			isa = PBXGroup;
+			children = (
+				08156BBF1A3EB4DA0044B0C0 /* PageControlViewController.h */,
+				08156BC01A3EB4DA0044B0C0 /* PageControlViewController.m */,
+			);
+			name = pageControl;
+			sourceTree = "<group>";
+		};
+		081676831A43AEF600269E48 /* I2Watch */ = {
+			isa = PBXGroup;
+			children = (
+				081676891A43B08900269E48 /* I2WatchViewController.h */,
+				0816768A1A43B08900269E48 /* I2WatchViewController.m */,
+				0816768C1A43B0CF00269E48 /* ScrollCotentViewController.h */,
+				0816768D1A43B0CF00269E48 /* ScrollCotentViewController.m */,
+				0816768F1A440A6A00269E48 /* ScrollTableViewController.h */,
+				081676901A440A6A00269E48 /* ScrollTableViewController.m */,
+			);
+			name = I2Watch;
+			sourceTree = "<group>";
+		};
+		081957C11A5A32D0009049DF /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				081957C21A5A32F2009049DF /* Reachability.h */,
+				081957C31A5A32F2009049DF /* Reachability.m */,
+				081957C51A5A3324009049DF /* HttpReachabilityViewController.h */,
+				081957C61A5A3324009049DF /* HttpReachabilityViewController.m */,
+			);
+			name = Http;
+			sourceTree = "<group>";
+		};
+		086A11581A5E861700F966F5 /* 本地通知 */ = {
+			isa = PBXGroup;
+			children = (
+				086A11591A5E862700F966F5 /* LocalNotificationViewController.h */,
+				086A115A1A5E862700F966F5 /* LocalNotificationViewController.m */,
+			);
+			name = "本地通知";
 			sourceTree = "<group>";
 		};
 		08E325D51A358C2400097224 /* UIKitAnimate */ = {
@@ -378,6 +469,11 @@
 				TargetAttributes = {
 					0807E1D01A313ED2003695F6 = {
 						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					0807E1EC1A313ED2003695F6 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -410,6 +506,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0807E1E31A313ED2003695F6 /* Main.storyboard in Resources */,
+				086A115D1A5E875500F966F5 /* Button9.wav in Resources */,
 				0807E1E51A313ED2003695F6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,12 +526,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				08E325E71A359DE500097224 /* CoreAnimation3ViewController.m in Sources */,
+				0816768B1A43B08900269E48 /* I2WatchViewController.m in Sources */,
+				081676911A440A6A00269E48 /* ScrollTableViewController.m in Sources */,
 				0807E20D1A318B71003695F6 /* Geometry.m in Sources */,
 				08E325C11A354F9C00097224 /* WWDArcView.m in Sources */,
 				08E325C51A35577200097224 /* WWDPathView.m in Sources */,
 				08E325F11A35C3B300097224 /* WWDPopView.m in Sources */,
+				08156BBD1A3E8E7D0044B0C0 /* WebViewViewController.m in Sources */,
 				08E325F41A35C4C300097224 /* WwdViewController.m in Sources */,
 				0807E1DA1A313ED2003695F6 /* AppDelegate.m in Sources */,
+				081957C41A5A32F2009049DF /* Reachability.m in Sources */,
 				0807E1FF1A313F77003695F6 /* LearnTableViewController.m in Sources */,
 				08E325D81A358D1700097224 /* UIView1ViewController.m in Sources */,
 				0807E1DD1A313ED2003695F6 /* LearnLearnLearn.xcdatamodeld in Sources */,
@@ -444,6 +545,7 @@
 				08E325E01A359A2500097224 /* CoreAnimation1ViewController.m in Sources */,
 				0807E2021A3140A8003695F6 /* AnimationViewController.m in Sources */,
 				08E325EA1A35AA7900097224 /* CoreAnimation4ViewController.m in Sources */,
+				081957C71A5A3324009049DF /* HttpReachabilityViewController.m in Sources */,
 				08E325E31A359C8100097224 /* CoreAnimation2ViewController.m in Sources */,
 				08E325ED1A35AD2300097224 /* DemoCAView.m in Sources */,
 				08E325D11A35837400097224 /* TransformView.m in Sources */,
@@ -452,6 +554,8 @@
 				08043DA31A36A85700C96A7F /* CustomerGesture.m in Sources */,
 				08E325BB1A3546D600097224 /* WWDShadowView.m in Sources */,
 				0807E1E01A313ED2003695F6 /* ViewController.m in Sources */,
+				0816768E1A43B0CF00269E48 /* ScrollCotentViewController.m in Sources */,
+				08156BC11A3EB4DA0044B0C0 /* PageControlViewController.m in Sources */,
 				08E325C81A3577C700097224 /* WWDCurveView.m in Sources */,
 				0807E2061A315F13003695F6 /* Animation1ViewController.m in Sources */,
 				08E325DC1A35971000097224 /* CoreAnimationViewController.m in Sources */,
@@ -460,6 +564,7 @@
 				0807E2091A318A1A003695F6 /* Animation2ViewController.m in Sources */,
 				08043DA01A36A83200C96A7F /* GestureViewController.m in Sources */,
 				08043D9A1A36936D00C96A7F /* JCUIViewViewController.m in Sources */,
+				086A115B1A5E862700F966F5 /* LocalNotificationViewController.m in Sources */,
 				08043D931A36894900C96A7F /* UISVViewController.m in Sources */,
 				0807E1D71A313ED2003695F6 /* main.m in Sources */,
 				08A78DD31A35390300FC6290 /* Animation3ViewController.m in Sources */,
@@ -568,6 +673,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
